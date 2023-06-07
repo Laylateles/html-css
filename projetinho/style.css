@@ -1,0 +1,46 @@
+@charset  "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Source+Code+Pro:wght@600&display=swap');
+
+body {
+    background-image: linear-gradient(to right,#2013b1af, #4139adcc,#3e31ebd8);
+    font: normal lighter 1em Arial,serif;
+}
+
+.titulo {
+    color:#0D0761;
+}
+.titulo::before {
+    content: '→';
+    color: black;
+}
+
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+p {
+   font-family:'Montserrat', sans-serif;
+   font-weight: bold;
+   text-align: justify;
+   text-indent: 20px;
+}
+
+#aqui:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+#aqui {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#aqui:active {
+    color: black;
+}
+
+h2 {
+    font-weight: lighter;
+}
