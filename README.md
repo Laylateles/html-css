@@ -3,4 +3,4 @@
 
  Estou aprendendo muito nesse curso
 
- <a href="https://laylateles.github.io/html-css/exercicios/ex001/index.html">Executar exercicio 001</a>
+ <a href="https://laylateles.github.io/html-css/exercicios/ex001/index.html">Executar exercicio 001.</a>
