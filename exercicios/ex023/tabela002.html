@@ -12,6 +12,7 @@
         table {
             width: 400px;
             border-collapse: collapse;
+            position: relative;
         }
 
        td, th{
@@ -21,19 +22,35 @@
         }
         
         thead, tfoot {
-            background-color: grey;
+            background-color: rgb(61, 58, 58);
             color: whitesmoke;
         }
+
+        thead th {
+          position:sticky;
+          top: -1px;
+          background-color: rgb(61, 58, 58);
+        }
+
+        tbody tr:nth-child(2n){
+            background-color: rgb(170, 164, 164);
+        }
+
+        caption {
+          padding-bottom: 5px;
+        }
+
     </style>
 </head>
 <body>
     <h1>Uso de Tabelas grandes</h1>
 
     <table>
+      <caption><strong>População das Unidades Federativas</strong></caption>
         <thead>
           <tr>
-              <th>Estado</th>
-              <th>População</th>
+              <th scope="col" style="width: 250px;">Estado</th>
+              <th scope="col">População</th>
           </tr>
         </thead>
         <tbody>
@@ -148,10 +165,22 @@
         </tbody>
         <tfoot>
             <tr>
-               <th>Total de habitantes</th>
+               <th scope="row">Total de habitantes</th>
                <td> <strong>207 883 699</strong></td>
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id rerum explicabo voluptate sunt odio amet, veritatis aperiam rem neque vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nisi cupiditate consequuntur. Provident hic doloribus optio officiis error voluptatum expedita quidem qui cum est sapiente, enim modi, exercitationem fugiat voluptates!
+    Voluptatem tempora, nihil culpa eius deserunt eos? Qui esse odio minus molestias repellendus ratione! Sequi adipisci iure rem dolorem, labore fugit autem dignissimos ullam quaerat temporibus natus ratione eligendi suscipit?
+    Perferendis autem quae quibusdam ipsum? Rem, perspiciatis pariatur! Expedita minus error ipsa quod ex laborum voluptate dolorum architecto tempora quibusdam, dolore nesciunt doloremque soluta ea ipsum asperiores iste? Expedita, veritatis.
+    Earum sit expedita, labore iusto sint quod tempore, quisquam consequuntur eveniet quasi voluptatum beatae sequi ipsum magnam, mollitia reprehenderit? Aliquam, quidem. Ea maxime quos beatae quaerat minima deleniti laboriosam impedit?
+    Maiores impedit perferendis unde consequuntur eveniet quasi quidem laborum sequi accusamus quas amet, itaque sit adipisci harum repellat possimus tempora alias magni repudiandae nulla eius, delectus, aliquam minus! Impedit, libero!
+    Consectetur, aperiam a veniam eum inventore vero ipsa doloremque iusto rerum fugit fugiat quasi blanditiis deleniti repellendus? Tempora, architecto ea dicta eos eligendi id similique quasi porro accusamus dignissimos reprehenderit.
+    Expedita corrupti explicabo, error voluptatibus aperiam nihil debitis possimus harum, voluptatum reprehenderit iusto sed pariatur obcaecati quisquam neque iste amet facere veniam natus vel, atque incidunt. Alias fuga earum voluptate.
+    Maxime ipsam iusto, saepe libero sint ab obcaecati, et provident error assumenda iure consequuntur culpa nostrum deserunt, fuga pariatur? Nesciunt rerum rem accusantium ad explicabo enim aspernatur vitae? Explicabo, nostrum?
+    Esse, odio dolorum fugiat ducimus maiores minima, itaque debitis veniam aut, eveniet sed soluta doloribus expedita ut eum. Placeat impedit praesentium fuga est quis dolorem? Porro quisquam nulla iste quod.
+    Eaque nulla nesciunt ipsum laudantium dignissimos provident porro non dolorum voluptatibus repellat dolorem consequuntur adipisci distinctio facere inventore, excepturi dolores voluptas, vel, aliquam perferendis optio veritatis debitis iste nam! Ea.
+    Amet neque facere sit. Eos sit ex necessitatibus eius omnis deleniti ut. Officia labore eaque amet perspiciatis facere quod, a non, expedita eos voluptas odio cupiditate! Id deleniti iste ullam?
+    Ullam eius sequi iste. Illo consectetur, suscipit, rem modi unde officiis amet delectus  </p>
 </body>
 </html>
