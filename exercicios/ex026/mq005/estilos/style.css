@@ -39,7 +39,7 @@ h1 {
     cursor: pointer;
 }
 menu{
-    display: block;
+    display: none;
 }
 
 menu ul {
@@ -47,7 +47,7 @@ menu ul {
 }
 
 menu a {
-    display: none;
+    display: block;
     text-decoration: none;
     color:white;
     background-color: rgba(128, 128, 128) ;
