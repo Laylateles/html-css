@@ -1,3 +1,14 @@
 @charset "UTF-8";
 
-/* configuração tablet */
+#hamb {
+    display: none;
+}
+
+menu {
+    display: block;
+}
+
+li {
+    display: inline-block;
+}
+

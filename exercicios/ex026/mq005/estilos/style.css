@@ -62,6 +62,7 @@ a:hover {
 
 main {
     width: 90vw;
+    max-width: 768px;
     margin: auto; 
     background-color: white;
     margin: auto;
