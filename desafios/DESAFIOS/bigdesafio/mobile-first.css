@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body,html{
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    display: inline-block;
+    border: 2px solid black;
+    position: absolute;
+    top: 33%;
+    left: 45%;
+   transform: translate(-33%,-45%);
+}
+
+div{
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    height: 100px;
+}
+
