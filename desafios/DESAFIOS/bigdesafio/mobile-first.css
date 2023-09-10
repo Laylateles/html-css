@@ -20,12 +20,13 @@ main{
     background-color: white;
     border: 2px solid rgba(0, 0, 0, 0.151);
     border-radius: 10px;
-    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.13);
-    padding: 10px;
+    box-shadow: 1px 7px 15px rgba(128, 128, 128, 0.267);
+    width: 395px;
+    padding: 3px;
     position: absolute;
-    top: 48%;
-    left: 49%;
-    transform: translate(-48%,-49%);
+    top: 55%;
+    left: 52%;
+    transform: translate(-55%,-52%);
 }
 
 div{
@@ -40,6 +41,7 @@ img{
 
 h2 {
     text-align: center;
+    padding-top: 5px;
 }
 
 p{
@@ -54,10 +56,31 @@ input{
    padding: 10px;
    font-size: 16px;
    border-radius: 5px;
-   margin: 5px;
+   margin: 3px;
+}
+
+.radio{
+    color: red;
+}
+
+sup{
+   display: block;
+   color: rgb(102, 101, 101);
+   text-align: left;
+   margin-top: 10px;
+   margin-left: 10px;
 }
 
 
+select{
+    font-size: 16px;
+    text-align: left;
+    border: 1px solid rgba(128, 128, 128, 0.384); 
+    border-radius: 5px;
+    padding: 7px;
+    width: 113px;
+    margin: 7px;
+}
 
 
 
