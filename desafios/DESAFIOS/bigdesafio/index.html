@@ -17,13 +17,13 @@
         </header>
             <article>
                 <form action="#" method="post">
-                    <div><input type="text" name="n" id="nome" placeholder="Nome" required>
-                     <input type="text" name="s" id="sob" placeholder="Sobrenome" required></div>
+                    <div><input type="text" name="n" id="nome" placeholder="Nome" required size="15px">
+                     <input type="text" name="s" id="sob" placeholder="Sobrenome" required size="15px"></div> 
                       <div>
-                       <input type="text" name="celem" id="celemail" placeholder="Celular ou e-mail" required>
+                       <input type="text" name="celem" id="celemail" placeholder="Celular ou e-mail" required size="39px">
                      </div>
-                  <div>
-                        <input type="text" name="sen" id="senha" placeholder="Nova senha"required>
+                  <div><input type="password" name="sen" id="senha"  placeholder="Nova senha"required size="39px">
+                    
                   </div>
                    <div>
                        <label for="dat"><sup>Data de nascimento</sup></label>
@@ -72,7 +72,7 @@
                             <input type="radio" name="sexo" id="Pers"> <label for="Pers">Personalizado</label>
                         </div>
                         <div>
-                            <input type="button" value="Cadastre-se" onclick="cadastrar()">
+                            <button onclick="cadastrar()">Cadastre-se</button>
                         </div>
                         <p>
                             <a href="#">Já tem uma conta?</a>
