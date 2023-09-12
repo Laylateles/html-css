@@ -56,12 +56,9 @@ input{
    padding: 10px;
    font-size: 16px;
    border-radius: 5px;
-   margin: 3px;
+   margin: 5px;
 }
 
-.radio{
-    color: red;
-}
 
 sup{
    display: block;
@@ -95,7 +92,12 @@ button{
     margin: 10px;
 }
 
+#link{
+    margin-top: 10px;
+}
+
 a{
+    padding: 20px;
     font-size: 16px;
     font-weight: lighter;
     color: rgba(26, 26, 248, 0.945);

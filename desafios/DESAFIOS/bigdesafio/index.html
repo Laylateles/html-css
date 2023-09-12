@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastre-se no Facebook | Facebook</title>
+    <title>Cadastrar-se no Facebook | Facebook</title>
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="mobile-first.css">
     <script src="script.js"></script>
@@ -17,19 +17,19 @@
         </header>
             <article>
                 <form action="#" method="post">
-                    <div><input type="text" name="n" id="nome" placeholder="Nome" required size="16px">
-            <input type="text" name="s" id="sob" placeholder="Sobrenome" required size="16px"></div> 
+                    <div><input type="text" name="n" id="nome" placeholder="Nome" required size="16px" autocomplete="username">
+            <input type="text" name="s" id="sob" placeholder="Sobrenome" required size="16px" autocomplete="family-name"></div> 
                       <div>
-                       <input type="text" name="celem" id="celemail" placeholder="Celular ou e-mail" required size="40px">
+                       <input type="text" name="celem" id="celemail" placeholder="Celular ou e-mail" required size="40px" autocomplete="email">
                      </div>
-                  <div><input type="password" name="sen" id="senha"  placeholder="Nova senha"required size="40px">
+                  <div><input type="password" name="sen" id="senha"  placeholder="Nova senha"required size="40px" autocomplete="new-password">
                     
                   </div>
                    <div>
-                       <label for="dat"><sup>Data de nascimento</sup></label>
+                      <sup>Data de nascimento</sup>
                    </div>
                    <div>
-                        <select name="num" id="dat" required >
+                        <select name="num" id="num" required >
                          <optgroup>
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -41,7 +41,7 @@
                             <option value="8">8</option>
                         </optgroup>      <!--Vou fazer por JS -->
                         </select>
-                        <select name="mes" id="dat" required>
+                        <select name="mes" id="mes" required>
                           <optgroup>
                             <option value="1">Jan</option>
                             <option value="2">Fev</option>
@@ -57,14 +57,14 @@
                             <option value="12">Dez</option>
                                 </optgroup>
                             </select>
-                            <select name="ano" id="dat" required>
+                            <select name="ano" id="ano" required>
                                 <optgroup>
                                     <option value="">2023</option>
                                 </optgroup>  <!--Vou fazer por JS -->
                             </select>
                         </div>
                         <div>
-                            <label for="Fem"><sup>Gênero</sup></label>
+                             <sup>Gênero</sup>     
                         </div>
                         <div>
                            <input type="radio" name="sexo" id="Fem"><label for="Fem">Feminino</label>
@@ -74,8 +74,8 @@
                         <div>
                             <button onclick="cadastrar()">Cadastre-se</button>
                         </div>
-                        <p>
-                            <a href="#">Já tem uma conta?</a>
+                        <p id="link">
+                            <a href="https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjk0NDc1Njc3LCJjYWxsc2l0ZV9pZCI6MjY5NTQ4NDUzMDcyMDk1MX0%3D">Já tem uma conta?</a>
                         </p>
                 </form>
             </article>
