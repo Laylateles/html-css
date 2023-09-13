@@ -25,9 +25,9 @@ main{
     width: 330px;
     padding: 3px;
     position: absolute;
-    top: 55%;
+    top: 52%;
     left: 52%;
-    transform: translate(-55%,-52%);
+    transform: translate(-52%,-52%);
 }
 
 div{
