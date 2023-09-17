@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <p>Por favor preencha este formulário com as informações necessárias</p>
+    <form action="https://register-demo.freecodecamp.org" method="post">
+        <fieldset>
+            <div>
+                <label for="Nome">Digite seu primeiro nome:</label>
+                <input type="text" name="Name" id="Nome" required>
+            </div>
+            <div>
+                <label for="Sobre">Digite seu sobrenome:</label>
+                <input type="text" name="Sobrenome" id="Sobre" required>
+            </div>
+            <div>
+                <label for="Email">Digite seu e-mail:</label>
+                <input type="email" name="em" id="Email" required>
+            </div>
+            <div>
+                <label for="Senha">Criar uma nova senha:</label>
+                <input type="password" name="sen" id="Senha" required pattern="[a-z0-5]{8,}">
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <input type="radio" name="conta" id="cp">
+                <label for="cp">Conta pessoal</label>
+            </div>
+            <div>
+                <input type="radio" name="conta" id="cc">
+                <label for="cc">Conta corporativa</label>
+            </div>
+            <div>
+                <input type="checkbox" name="term" id="condi" required>
+                <label for="condi"><a href="https://www.freecodecamp.org/news/terms-of-service/">Aceito os termos e condições</a></label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <label for="idade">Digite sua idade(anos)</label>
+                <input type="number" name="anos" id="idade" min="13" max="100">
+            </div>
+            <div>
+                <label for="inform">Como você ficou sabendo sobre nós?</label>
+                <select name="form" id="inform">
+                        <option value="">(select one)</option>
+                        <option value="1">freeCodeCamp News</option>
+                        <option value="2">freeCodeCamp YouTube Channel</option>
+                        <option value="3">freeCodeCamp Forum</option>
+                        <option value="4">Other</option>
+                </select>
+            </div>
+        </fieldset>
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+</html>
