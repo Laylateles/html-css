@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
 </head>
 <body>
     <header>
@@ -18,40 +19,49 @@
     <main>
         <article>
                 <form action="form.php" method="post">
-                    <div>
-                        <label for="nome">Nome</label>
-                        <input type="text" name="n" id="nome">
-                    </div>
-                    <div>
-                        <label for="sob">Sobrenome</label>
-                        <input type="text" name="s" id="sob">
-                    </div>
-                    <div>
-                        <label for="idade">Idade(opcional)</label>
-                        <input type="number" name="ida" id="idade">
-                    </div>
-                    <div>
-                        <label for="inscricao">Estado civil</label>
-                        <select name="inscr" id="inscricao">
-                            <option value="0">Escolha as opções</option>
-                            <option value="1">Solteiro(a)</option>
-                            <option value="2">Casado(a)</option>
-                            <option value="3">Viuvo(a)</option>
-                            <option value="4">Namorando</option>
-                        </select>
-                    </div>
-                    <div>
-                        
-                        <input type="radio" name="gen" id="F"><label for="F">Feminino</label>
-                    </div>
-                </form>
+                    <fieldset id="dados">
+                        <div>
+                            <label for="nome">Nome</label>
+                            <input type="text" name="n" id="nome" required placeholder="Digite seu nome">
+                        </div>
+                        <div>
+                            <label for="sob">Sobrenome</label>
+                            <input type="text" name="s" id="sob" required placeholder="Digite seu sobrenome">
+                        </div>
+                        <div>
+                            <label for="email">E-mail</label>
+                            <input type="email" name="em" id="email" required placeholder="Digite seu e-mail">
+                        </div>
+                        <div>
+                            <label for="idade">Idade(opcional)</label>
+                            <input type="number" name="ida" id="idade">
+                        </div>
+                        <div>
+                            <label for="inscricao">Estado civil</label>
+                            <select name="inscr" id="inscricao" required>
+                                <option value="0">Escolha as opções</option>
+                                <option value="1">Solteiro(a)</option>
+                                <option value="2">Casado(a)</option>
+                                <option value="3">Viuvo(a)</option>
+                                <option value="4">Namorando</option>
+                            </select>
+                        </div>
+                        <div>
+                            <sup>Gênero:</sup>
+                            <input type="radio" name="gen" id="F"><label for="F">Feminino</label>
+                            <input type="radio" name="gen" id="M"><label for="M">Masculino</label>
+                            <input type="radio" name="gen" id="O"><label for="O">Outro</label>
+                        </div>
+                        <input type="submit" name="Enviar" id="envi">
+                        <div>
+                            Já possui uma conta?
+                            <a href="#">Clique aqui</a>
+                        </div>
+                    </fieldset>
         </article>
-        <aside>
-
-        </aside>
     </main>
     <footer>
-
+        Patrocinado por <i>laylasousa</i>
     </footer>
 </body>
 </html>
