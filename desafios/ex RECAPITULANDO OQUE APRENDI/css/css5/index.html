@@ -8,33 +8,33 @@
     <link rel="stylesheet" href="media.css">
 </head>
 <body>
-    <header>
-        <h1 id="titulo">
-            Inscreva-se
-        </h1>
-        <p id="descrição">
-            Obrigado por se inscrever no nosso site!
-        </p>
-    </header>
     <main>
+        <header id="tema">
+            <h1 id="titulo">
+                Inscreva-se
+            </h1>
+            <p id="descrição">
+                Obrigado por se inscrever no nosso site!
+            </p>
+        </header>
         <article>
                 <form action="form.php" method="post">
-                    <fieldset id="dados">
+                    <fieldset class="dados">
                         <div>
-                            <label for="nome">Nome</label>
+                            <label for="nome">Nome:</label>
                             <input type="text" name="n" id="nome" required placeholder="Digite seu nome">
                         </div>
                         <div>
-                            <label for="sob">Sobrenome</label>
+                            <label for="sob">Sobrenome:</label>
                             <input type="text" name="s" id="sob" required placeholder="Digite seu sobrenome">
                         </div>
                         <div>
-                            <label for="email">E-mail</label>
+                            <label for="email">E-mail:</label>
                             <input type="email" name="em" id="email" required placeholder="Digite seu e-mail">
                         </div>
                         <div>
-                            <label for="idade">Idade(opcional)</label>
-                            <input type="number" name="ida" id="idade">
+                            <label for="idade">Idade<sup>(opcional)</sup></label>
+                            <input type="number" name="ida" id="idade" min="13" max="80">
                         </div>
                         <div>
                             <label for="inscricao">Estado civil</label>
@@ -48,9 +48,9 @@
                         </div>
                         <div>
                             <sup>Gênero:</sup>
-                            <input type="radio" name="gen" id="F"><label for="F">Feminino</label>
-                            <input type="radio" name="gen" id="M"><label for="M">Masculino</label>
-                            <input type="radio" name="gen" id="O"><label for="O">Outro</label>
+                            <input type="radio" name="gen" id="F" class="alinhando"><label for="F">Feminino</label>
+                            <input type="radio" name="gen" id="M" class="alinhando"><label for="M">Masculino</label>
+                            <input type="radio" name="gen" id="O" class="alinhando"><label for="O">Outro</label>
                         </div>
                         <input type="submit" name="Enviar" id="envi">
                         <div>
