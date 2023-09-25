@@ -57,7 +57,7 @@ main{
 .dados{
     display: block;
     margin: auto;
-    width: 450px;
+    width: 380px;
     height: 360px;
     border: none;
     background-color: var(--cor0);
@@ -69,7 +69,7 @@ main{
 #tema{
     display: block;
     margin: auto;
-    width: 450px;
+    width: 380px;
     height: 100px;
     border: none;
     background-color: #ffffff;
@@ -104,6 +104,14 @@ input[type=submit]:hover{
     border: none;
 }
 
+select{
+    padding: 2px;
+    border: 2px solid var(--cor4);
+    color: var(--cor4);
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
 .alinhando{
     margin: 3px;
     width: unset;
@@ -124,6 +132,7 @@ footer{
     display: block;
     margin: auto;
     width: 200px;
+    color: var(--cor1);
     font-family: 'Dancing Script', sans-serif;
     font-size: 20px;
 }

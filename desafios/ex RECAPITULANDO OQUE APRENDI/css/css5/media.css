@@ -19,6 +19,20 @@ grandes telas:1200px and more
     .dados, #tema{
         background-color: #ffffffe8;
     }
+
+    .dados{
+        width: 430px;
+        height: 370px;
+        font-size: 23px;
+    }
+
+    #tema{
+        width: 430px;
+    }
+
+    select{
+        padding: 4px;
+    }
 }
 
 @media screen and (min-width:992px){
@@ -29,5 +43,24 @@ grandes telas:1200px and more
 
     .dados, #tema{
         background-color: #ffffffc4;
+    }
+
+    .dados{
+        height: 380px;
+        font-size: 24px;
+    }
+
+    .dados{
+        width: 450px;
+        height: 375px;
+        font-size: 23px;
+    }
+
+    #tema{
+        width: 450px;
+    }
+
+    select{
+        padding: 4px;
     }
 }
